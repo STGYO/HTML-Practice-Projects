@@ -1,0 +1,114 @@
+<!--**Build a Simple Table**  
+Create a table displaying a weekly schedule.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Current Routine</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            width: 100px;
+        }
+        .BI{
+            background-color: aqua;
+        }
+        .WD{
+            background-color:gold;
+        }
+        .DSA{
+            background-color: greenyellow;
+        }
+        .MDC{
+            background-color: hotpink;
+        }
+        .DE{
+            background-color: rgb(91, 151, 255);
+        }
+        .AEC{
+            background-color: grey;
+        }
+        .HVPE{
+            background-color: rgb(255, 69, 69);
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 1250px;">
+        <tr>
+            <td align="center" colspan="9">ADAMAS UNIVERSITY</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="9">SCHOOL OF ENGINEERING AND TECHNOLOGY</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="9">DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="9">BCA 2nd Year : Semester - III : Tentative Time Table(Session 2024-25) : Room No.- 5206</td>
+        </tr>
+        <tr align="center">
+            <td>DAY</td>
+            <td>09:30-10:25</td>
+            <td>10.30-11:25</td>
+            <td>11:30-12:25</td>
+            <td>12:30-01:30</td>
+            <td>01:30-02:25</td>
+            <td>02:30-03:25</td>
+            <td>03:30-04:25</td>
+            <td>04:30-05:25</td>
+        </tr>
+        <tr align="center">
+            <td>Monday</td>
+            <td class="BI">Business Intelligence</td>
+            <td class="WD">Website Development</td>
+            <td class="WD">Website Development</td>
+            <td rowspan="5"></td>
+            <td class="DE">Digital Electronics</td>
+            <td class="MDC">Cyber Law</td>
+            <td colspan="2" class="DE">Digital Electronics Lab Batch 1</td>
+        </tr>
+        <tr align="center">
+            <td>Tuesday</td>
+            <td class="BI">Business Intelligence</td>
+            <td class="DE">Digital Electronics</td>
+            <td class="AEC">Professional Communication Skills</td>
+            <td class="DSA">Data Structures & Algorithms</td>
+            <td class="MDC">Cyber Law</td>
+            <td colspan="2"></td>
+            
+        </tr>
+        <tr align="center">
+            <td>Wednesday</td>
+            <td class="BI">Business Intelligence</td>
+            <td colspan="2" class="DSA">Data Structures & Algorithms Lab</td>
+            <td class="DSA">Data Structures & Algorithms</td>
+            <td colspan="2" class="MDC">Cyber Law</td>
+            <td></td>
+        </tr>
+        <tr align="center">
+            <td>Thursday</td>
+            <td class="HVPE">Human Values & Professional Ethics</td>
+            <td class="WD">Website Development</td>
+            <td class="DSA">Data Structures & Algorithms</td>
+            <td></td>
+            <td class="AEC">Professional Communication  Skills</td>
+            <td colspan="2" class="DE">Digital Electronics Lab Batch 2</td>
+        </tr>
+        <tr align="center">
+            <td>Friday</td>
+            <td colspan="2" class="BI">Business Intelligence Lab</td>
+            <td class="HVPE">Human Values & Professional Ethics</td>
+            <td class="DE">Digital Electronics</td>
+            <td></td>
+            <td colspan="2" style="background-color: blueviolet;">Club  Activity</td>
+        </tr>
+        <tr>
+            <td colspan="9">For  Doubt Clearing Class of any Subject,students have to put requisition in advance</td>
+        </tr>
+    </table>
+</body>
+</html>
